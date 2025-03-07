@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+/* Profile Image */
+img {
+    border-radius: 50%;
+    border: 5px solid black;
+    object-fit: cover;
+}
+
+/* Typography */
+h1, h2, h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Sections Styling */
+section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Projects & Contact */
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 10px 0;
+}
+
+#projects ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#projects ul li a:hover {
+    text-decoration: underline;
+}
